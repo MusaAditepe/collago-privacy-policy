@@ -3,41 +3,442 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gizlilik Politikası - Smart Wallet</title>
+    <title>Gizlilik Politikası - Collago</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .header {
+            text-align: center;
+            padding: 30px 0;
+            border-bottom: 3px solid #007bff;
+            margin-bottom: 30px;
+        }
+        
+        .header h1 {
+            color: #007bff;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            color: #666;
+            font-size: 1.1em;
+        }
+        
+        .section {
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            border-left: 4px solid #007bff;
+        }
+        
+        .section h2 {
+            color: #007bff;
+            font-size: 1.5em;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #dee2e6;
+        }
+        
+        .section h3 {
+            color: #495057;
+            font-size: 1.2em;
+            margin: 15px 0 10px 0;
+        }
+        
+        .section p, .section li {
+            margin-bottom: 10px;
+            text-align: justify;
+        }
+        
+        .section ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+        
+        .highlight {
+            background-color: #fff3cd;
+            padding: 15px;
+            border-radius: 5px;
+            border-left: 4px solid #ffc107;
+            margin: 15px 0;
+        }
+        
+        .contact-info {
+            background-color: #e7f3ff;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #007bff;
+            margin: 20px 0;
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 30px 0;
+            border-top: 2px solid #dee2e6;
+            margin-top: 40px;
+            color: #666;
+        }
+        
+        .back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+            font-size: 18px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            transition: all 0.3s ease;
+        }
+        
+        .back-to-top:hover {
+            background-color: #0056b3;
+            transform: translateY(-2px);
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                margin: 10px;
+                padding: 15px;
+            }
+            
+            .header h1 {
+                font-size: 2em;
+            }
+            
+            .section {
+                padding: 15px;
+            }
+        }
+    </style>
 </head>
 <body>
-    <h1>Gizlilik Politikası</h1>
-    <p>Son güncelleme: 14 Mart 2025</p>
-    
-    <h2>1. Giriş</h2>
-    <p>Smart Wallet’a hoş geldiniz. Bu Gizlilik Politikası, kullanıcı verilerini nasıl ele aldığımızı açıklar. Uygulamayı kullanarak, bu politikada belirtilen şartları kabul etmiş olursunuz.</p>
-    
-    <h2>2. Veri Toplama ve Depolama</h2>
-    <p>Smart Wallet hiçbir kişisel veriyi toplamaz, saklamaz veya iletmez. Uygulamanın işlevselliğiyle ilgili tüm veriler cihazınızda yerel olarak saklanır.</p>
-    
-    <h2>3. Kullanıcı Kimlik Doğrulama</h2>
-    <p>Uygulama, kullanıcı hesabı, giriş bilgileri veya kimlik doğrulama yöntemleri gerektirmez. Uygulamayı kullanmak için herhangi bir kişisel bilgi sağlamanıza gerek yoktur.</p>
-    
-    <h2>4. Veri Paylaşımı</h2>
-    <p>Smart Wallet, kullanıcı verilerini üçüncü taraflarla paylaşmaz. Uygulama içinde kullanıcılar arasında herhangi bir iletişim bulunmamaktadır.</p>
-    
-    <h2>5. Döviz Kurları</h2>
-    <p>Uygulama, üçüncü taraf kaynaklardan alınan güncel döviz kurlarını gösterebilir. Bu bilgilerin doğruluğundan sorumlu değiliz.</p>
-    
-    <h2>6. Reklamlar</h2>
-    <p>Şu an itibarıyla Smart Wallet'ta herhangi bir reklam bulunmamaktadır. Ancak gelecekte güncellemelerle üçüncü taraf reklamlar entegre edilebilir. Herhangi bir değişiklik, güncellenmiş bir Gizlilik Politikası ile duyurulacaktır.</p>
-    
-    <h2>7. Abonelik Hizmetleri</h2>
-    <p>Şu an için abonelik tabanlı herhangi bir özellik bulunmamaktadır. Gelecekte abonelik planları eklenirse, bu Gizlilik Politikası buna uygun olarak güncellenecektir.</p>
-    
-    <h2>8. Güvenlik</h2>
-    <p>Tüm veriler cihazda yerel olarak saklandığından, herhangi bir kullanıcı verisini harici sunucularda şifrelemiyor veya işlemiyoruz.</p>
-    
-    <h2>9. Gizlilik Politikasındaki Değişiklikler</h2>
-    <p>Bu Gizlilik Politikasını herhangi bir zamanda güncelleme hakkımız saklıdır. Önemli değişiklikler kullanıcılara bildirilecektir.</p>
-    
-    <h2>10. İletişim Bilgileri</h2>
-    <p>Bu Gizlilik Politikası hakkında herhangi bir sorunuz varsa, lütfen bizimle iletişime geçin:</p>
-    <p>E-posta: <a href="mailto:quizappmobile@gmail.com">quizappmobile@gmail.com</a></p>
+    <div class="container">
+        <div class="header">
+            <h1>Gizlilik Politikası</h1>
+            <p>Collago - Arkadaşlarınla Yap</p>
+            <p><strong>Son Güncelleme Tarihi:</strong> [Tarih]</p>
+        </div>
+
+        <div class="section">
+            <h2>1. Giriş</h2>
+            <p>Collago - Arkadaşlarınla Yap ("Biz", "Bizim", "Uygulama") olarak, kullanıcılarımızın gizliliğini korumayı taahhüt ediyoruz. Bu Gizlilik Politikası, uygulamamızı kullanırken kişisel bilgilerinizi nasıl topladığımızı, kullandığımızı, sakladığımızı ve paylaştığımızı açıklar.</p>
+        </div>
+
+        <div class="section">
+            <h2>2. Topladığımız Bilgiler</h2>
+            
+            <h3>2.1 Kişisel Bilgiler</h3>
+            <ul>
+                <li><strong>Hesap Bilgileri:</strong> Ad, soyad, e-posta adresi, kullanıcı adı</li>
+                <li><strong>Profil Bilgileri:</strong> Profil fotoğrafı, biyografi, yaş, cinsiyet</li>
+                <li><strong>İletişim Bilgileri:</strong> Telefon numarası (isteğe bağlı)</li>
+            </ul>
+
+            <h3>2.2 Kullanım Bilgileri</h3>
+            <ul>
+                <li><strong>Uygulama Kullanımı:</strong> Uygulama içi aktiviteler, özellik kullanımı</li>
+                <li><strong>İçerik:</strong> Oluşturulan kolajlar, paylaşılan fotoğraflar, yorumlar</li>
+                <li><strong>Sosyal Etkileşim:</strong> Arkadaş listesi, grup üyelikleri, mesajlaşma</li>
+            </ul>
+
+            <h3>2.3 Teknik Bilgiler</h3>
+            <ul>
+                <li><strong>Cihaz Bilgileri:</strong> Cihaz türü, işletim sistemi, uygulama sürümü</li>
+                <li><strong>Konum Bilgileri:</strong> Genel konum bilgisi (isteğe bağlı)</li>
+                <li><strong>Log Bilgileri:</strong> IP adresi, tarayıcı türü, erişim zamanları</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>3. Bilgilerin Kullanımı</h2>
+            
+            <h3>3.1 Hizmet Sağlama</h3>
+            <ul>
+                <li>Uygulama özelliklerini sunma</li>
+                <li>Kullanıcı hesaplarını yönetme</li>
+                <li>Kolaj oluşturma ve paylaşma hizmetleri</li>
+                <li>Sosyal etkileşim özellikleri</li>
+            </ul>
+
+            <h3>3.2 İletişim</h3>
+            <ul>
+                <li>Hesap güvenliği bildirimleri</li>
+                <li>Uygulama güncellemeleri</li>
+                <li>Önemli hizmet değişiklikleri</li>
+                <li>Pazarlama iletişimi (izin verilirse)</li>
+            </ul>
+
+            <h3>3.3 Geliştirme ve İyileştirme</h3>
+            <ul>
+                <li>Uygulama performansını analiz etme</li>
+                <li>Yeni özellikler geliştirme</li>
+                <li>Kullanıcı deneyimini iyileştirme</li>
+                <li>Güvenlik önlemlerini güçlendirme</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>4. Bilgi Paylaşımı</h2>
+            
+            <h3>4.1 Üçüncü Taraf Hizmetleri</h3>
+            <ul>
+                <li><strong>Firebase:</strong> Veri depolama ve kimlik doğrulama</li>
+                <li><strong>Google Analytics:</strong> Kullanım analizi</li>
+                <li><strong>Sosyal Medya Platformları:</strong> Paylaşım özellikleri</li>
+            </ul>
+
+            <h3>4.2 Yasal Zorunluluklar</h3>
+            <ul>
+                <li>Yasal süreçlere uyum</li>
+                <li>Güvenlik ihlallerini önleme</li>
+                <li>Kullanıcı güvenliğini koruma</li>
+            </ul>
+
+            <h3>4.3 İş Ortakları</h3>
+            <ul>
+                <li>Güvenilir iş ortaklarıyla sınırlı bilgi paylaşımı</li>
+                <li>Hizmet kalitesini artırma amaçlı</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>5. Veri Güvenliği</h2>
+            
+            <h3>5.1 Güvenlik Önlemleri</h3>
+            <ul>
+                <li><strong>Şifreleme:</strong> Verilerin şifrelenmiş olarak saklanması</li>
+                <li><strong>Erişim Kontrolü:</strong> Sınırlı personel erişimi</li>
+                <li><strong>Güvenlik Duvarı:</strong> Ağ güvenliği</li>
+                <li><strong>Düzenli Güvenlik Güncellemeleri</strong></li>
+            </ul>
+
+            <h3>5.2 Veri Saklama</h3>
+            <ul>
+                <li>Kullanıcı verileri güvenli sunucularda saklanır</li>
+                <li>Gereksiz veriler düzenli olarak silinir</li>
+                <li>Yedekleme sistemleri kullanılır</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>6. Kullanıcı Hakları</h2>
+            
+            <h3>6.1 Veri Erişimi</h3>
+            <ul>
+                <li>Kişisel verilerinize erişim hakkı</li>
+                <li>Veri kopyalama hakkı</li>
+                <li>Veri taşınabilirliği</li>
+            </ul>
+
+            <h3>6.2 Veri Düzeltme</h3>
+            <ul>
+                <li>Yanlış bilgileri düzeltme hakkı</li>
+                <li>Eksik bilgileri tamamlama hakkı</li>
+            </ul>
+
+            <h3>6.3 Veri Silme</h3>
+            <ul>
+                <li>Hesap silme hakkı</li>
+                <li>Veri silme talebi</li>
+                <li>"Unutulma hakkı"</li>
+            </ul>
+
+            <h3>6.4 İtiraz Hakkı</h3>
+            <ul>
+                <li>Veri işlemeye itiraz etme</li>
+                <li>Pazarlama iletişimini durdurma</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>7. Çerezler ve Takip Teknolojileri</h2>
+            
+            <h3>7.1 Çerez Türleri</h3>
+            <ul>
+                <li><strong>Gerekli Çerezler:</strong> Uygulama işlevselliği için</li>
+                <li><strong>Analitik Çerezler:</strong> Kullanım analizi için</li>
+                <li><strong>Pazarlama Çerezleri:</strong> Kişiselleştirilmiş içerik için</li>
+            </ul>
+
+            <h3>7.2 Çerez Yönetimi</h3>
+            <ul>
+                <li>Çerez tercihlerini ayarlama</li>
+                <li>Çerezleri devre dışı bırakma</li>
+                <li>Üçüncü taraf çerezleri</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>8. Çocukların Gizliliği</h2>
+            
+            <h3>8.1 Yaş Sınırı</h3>
+            <ul>
+                <li>Uygulama 13 yaş altındaki çocuklara yönelik değildir</li>
+                <li>13-18 yaş arası kullanıcılar için ebeveyn onayı gerekir</li>
+            </ul>
+
+            <h3>8.2 Çocuk Verilerinin Korunması</h3>
+            <ul>
+                <li>Çocuk verilerinin özel korunması</li>
+                <li>Ebeveyn hakları</li>
+                <li>Veri silme prosedürleri</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>9. Uluslararası Veri Transferi</h2>
+            
+            <h3>9.1 Veri Transferi</h3>
+            <ul>
+                <li>Veriler güvenli ülkelerde saklanabilir</li>
+                <li>Yeterli koruma önlemleri alınır</li>
+                <li>Standart sözleşme maddeleri kullanılır</li>
+            </ul>
+
+            <h3>9.2 Yerel Yasalara Uyum</h3>
+            <ul>
+                <li>GDPR (Avrupa Birliği)</li>
+                <li>CCPA (Kaliforniya)</li>
+                <li>Yerel gizlilik yasaları</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>10. Gizlilik Politikası Değişiklikleri</h2>
+            
+            <h3>10.1 Değişiklik Bildirimi</h3>
+            <ul>
+                <li>Önemli değişiklikler önceden bildirilir</li>
+                <li>E-posta veya uygulama içi bildirim</li>
+                <li>30 günlük geçiş süresi</li>
+            </ul>
+
+            <h3>10.2 Değişiklik Onayı</h3>
+            <ul>
+                <li>Yeni politikayı kabul etme</li>
+                <li>Hesap kullanımına devam etme</li>
+                <li>Hesap silme seçeneği</li>
+            </ul>
+        </div>
+
+        <div class="contact-info">
+            <h2>11. İletişim</h2>
+            
+            <h3>11.1 Gizlilik Sorumlusu</h3>
+            <ul>
+                <li><strong>E-posta:</strong> privacy@collago.com</li>
+                <li><strong>Adres:</strong> [Şirket Adresi]</li>
+                <li><strong>Telefon:</strong> [Telefon Numarası]</li>
+            </ul>
+
+            <h3>11.2 Şikayet ve Talepler</h3>
+            <ul>
+                <li>Gizlilik şikayetleri</li>
+                <li>Veri erişim talepleri</li>
+                <li>Veri silme talepleri</li>
+                <li>İtiraz ve düzeltme talepleri</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>12. Yasal Dayanak</h2>
+            
+            <h3>12.1 Veri İşleme Hukuki Dayanağı</h3>
+            <ul>
+                <li>Sözleşmenin ifası</li>
+                <li>Meşru menfaat</li>
+                <li>Açık rıza</li>
+                <li>Yasal yükümlülük</li>
+            </ul>
+
+            <h3>12.2 Uygulanan Yasal Düzenlemeler</h3>
+            <ul>
+                <li>KVKK (Kişisel Verilerin Korunması Kanunu)</li>
+                <li>GDPR (Genel Veri Koruma Yönetmeliği)</li>
+                <li>CCPA (Kaliforniya Tüketici Gizlilik Yasası)</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>13. Ek Hükümler</h2>
+            
+            <h3>13.1 Sorumluluk Sınırlaması</h3>
+            <ul>
+                <li>Uygulama "olduğu gibi" sunulur</li>
+                <li>Sınırlı sorumluluk</li>
+                <li>Kullanıcı sorumluluğu</li>
+            </ul>
+
+            <h3>13.2 Uygulanacak Hukuk</h3>
+            <ul>
+                <li>Türk hukuku uygulanır</li>
+                <li>İstanbul mahkemeleri yetkilidir</li>
+                <li>Alternatif uyuşmazlık çözümü</li>
+            </ul>
+        </div>
+
+        <div class="highlight">
+            <p><strong>Bu Gizlilik Politikası, Collago uygulamasının kullanımı ile ilgili gizlilik haklarınızı ve yükümlülüklerimizi açıklar. Uygulamayı kullanarak bu politikayı kabul etmiş sayılırsınız.</strong></p>
+        </div>
+
+        <div class="footer">
+            <p><strong>Son güncelleme:</strong> [Tarih]</p>
+            <p><strong>Versiyon:</strong> 1.0</p>
+            <p>&copy; 2024 Collago. Tüm hakları saklıdır.</p>
+        </div>
+    </div>
+
+    <button class="back-to-top" onclick="scrollToTop()" title="Başa Dön">↑</button>
+
+    <script>
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+
+        // Show/hide back to top button
+        window.addEventListener('scroll', function() {
+            const backToTop = document.querySelector('.back-to-top');
+            if (window.pageYOffset > 300) {
+                backToTop.style.display = 'block';
+            } else {
+                backToTop.style.display = 'none';
+            }
+        });
+
+        // Initially hide the button
+        document.querySelector('.back-to-top').style.display = 'none';
+    </script>
 </body>
 </html>
