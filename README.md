@@ -1,0 +1,2 @@
+# collago-privacy-policy
+
